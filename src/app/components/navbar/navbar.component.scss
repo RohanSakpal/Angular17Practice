@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            margin-right: 10px;
+            a {
+                text-decoration: none;
+            }
+            a.active {
+                font-weight: bolder;
+                color: black;
+            }
+        }
+    }
+}
